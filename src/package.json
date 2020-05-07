@@ -1,0 +1,25 @@
+{
+  "name": "jnds",
+  "version": "1.0.0",
+  "engines": {
+    "node": "10.13.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "create-folders": "node scripts/npm/create-folders.js logs tmp files/avatar files/img files/video"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "latest",
+    "dotenv": "8.0.0",
+    "jwt-simple": "0.5.6",
+    "lodash": "latest",
+    "lodash-express": "0.1.0",
+    "moment": "2.24.0",
+    "mongodb": "3.5.2",
+    "morgan": "latest",
+    "multer": "^1.4.1",
+    "uuid": "3.3.2",
+    "winston": "3.2.1"
+  }
+}
