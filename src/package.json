@@ -9,7 +9,7 @@
     "create-folders": "node scripts/npm/create-folders.js logs tmp files/avatar files/img files/video"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "body-parser": "latest",
     "dotenv": "8.0.0",
     "jwt-simple": "0.5.6",
